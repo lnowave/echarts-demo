@@ -1,0 +1,56 @@
+*{box-sizing: border-box;}
+body {
+    color: #555;
+    font-family: "Helvetica Neue",Helvetica,"Microsoft YaHei",微软雅黑,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    padding: 0;
+    margin: 0;
+    background-color: #F3F3F4;
+}
+#wrapper {
+    overflow-x: hidden;
+    width: 100%;
+}
+.content_container{
+	width: 800px;
+	margin: 30px auto;
+}
+.chart_module{
+	background-color: #ffffff;
+	border-radius: 8px;
+	margin: 0 0 20px 0;
+	color: #555555;
+	height: 400px;
+	box-shadow: 0 4px 24px #dbe6e6;
+}
+.chart_module.dark_style{
+	background-color: #1B2831;
+	color: #ffffff;
+}
+.chart_module.module_md{
+	height: 500px;
+}
+.chart_module.module_lg{
+	height: 600px;
+}
+.chart_box{
+	margin: 0 auto;
+	width: 85%;
+	height: 360px;
+	padding:  40px 0 0 0;
+}
+.chart_module.module_lg .chart_box{
+	height: 540px;
+	padding:  40px 0 0 0;
+}
+.chart_module.module_md .chart_box{
+	height: 460px;
+	padding:  40px 0 0 0;
+}
+
+@media (max-width: 480px){
+	.content_container{
+		width: 90%;
+	}
+}
